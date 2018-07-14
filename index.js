@@ -18,10 +18,10 @@ function calculatesFarePrice(block1, block2){
   
   switch(distance){
     case distance <= 400 
-      return "free sample"
-    case 400 < distance <= 2000
-      return ((distance-400)*2*100).to 
-  400-2000 feet 2cents perfoot not including first 400 
+      return "free sample";
+    case 400 < distance <= 2000:
+      return ((distance-400)*2*100).toFixed(2); 
+    case dist
   over 2000 and under 2500  $25
   
   2500 and over return 'cannot travel that far'
