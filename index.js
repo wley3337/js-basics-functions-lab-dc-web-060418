@@ -20,7 +20,7 @@ function calculatesFarePrice(block1, block2){
     case distance <= 400 
       return "free sample"
     case 400 < distance <= 2000
-      return (distance-400)*2 
+      return ((distance-400)*2*100).to 
   400-2000 feet 2cents perfoot not including first 400 
   over 2000 and under 2500  $25
   
