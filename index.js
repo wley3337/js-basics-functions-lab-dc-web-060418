@@ -21,9 +21,9 @@ function calculatesFarePrice(block1, block2){
       return "free sample";
     case 400 < distance <= 2000:
       return ((distance-400)*2*100).toFixed(2); 
-    case dist
-  over 2000 and under 2500  $25
-  
-  2500 and over return 'cannot travel that far'
+    case 2000 < distance < 2500: 
+      return  $25;
+    case distance > 2500:
+      return 'cannot travel that far';
   }
 }
