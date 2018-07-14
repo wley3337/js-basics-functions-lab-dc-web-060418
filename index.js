@@ -17,7 +17,7 @@ function calculatesFarePrice(block1, block2){
   let distance = distanceTravelledInFeet(block1, block2)
   
   switch(distance){
-    case distance <= 400 
+    case distance <= 400: 
       return "free sample";
     case 400 < distance <= 2000:
       return ((distance-400)*2*100).toFixed(2); 
