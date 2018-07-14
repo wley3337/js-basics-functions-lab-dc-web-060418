@@ -13,7 +13,7 @@ function distanceTravelledInFeet(block1, block2){
   return( Math.abs(block1-block2)*264)
 }
 
-function calculatesFarePrice(block1, block2){
+function calculatesFarePrice(start, destination){
   let distance = distanceTravelledInFeet(block1, block2);
   
   switch (distance) {
