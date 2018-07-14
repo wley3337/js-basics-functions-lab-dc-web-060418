@@ -15,7 +15,7 @@ function distanceTravelledInFeet(block1, block2){
 
 function calculatesFarePrice(block1, block2){
   let distance = distanceTravelledInFeet(block1, block2);
-  binding.pry
+  
   switch (distance) {
     case distance <= 400: 
       return "free sample";
