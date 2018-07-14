@@ -18,7 +18,7 @@ function calculatesFarePrice(start, destination){
   
   switch (distance) {
     case distance <= 400: 
-      return "free sample";
+      return 0;
     case 400 < distance <= 2000:
       return ((distance-400)*2*100).toFixed(2); 
     case 2000 < distance < 2500: 
